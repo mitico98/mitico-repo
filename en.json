@@ -1,0 +1,196 @@
+{
+  "_id": "sans cis",
+  "description": null,
+  "categories": [
+    {
+      "_id": 1,
+      "securityMeasureId": "Inventory and Control of Enterprise Assets",
+      "name": "Inventario e Controllo delle Risorse Aziendali",
+      "description": "Gestire attivamente (inventariare, tracciare e correggere) tutte le risorse aziendali (dispositivi dell'utente finale, mobili e portatili inclusi, dispositivi di rete, dispositivi non informatici/Internet of Things – IoT e server) connessi all'infrastruttura fisicamente, virtualmente, in remoto e quelli in ambienti cloud, per conoscere con precisione la totalità delle risorse che devono essere monitorate e protette in azienda. Ciò aiuterà anche nell'identificare quelle non autorizzate e non gestite, da rimuovere o aggiornare.",
+      "questions": [
+        {
+          "_id": 0,
+          "question": "Viene eseguito un inventario di asset di tutte le risorse aziendali?",
+          "filter": [
+            "ig1",
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Stabilire e Mantenere un Inventario Dettagliato delle Risorse Aziendali",
+              "subtitle": "Identify",
+              "section": "Stabilire e mantenere un inventario accurato, dettagliato e aggiornato di tutte le risorse aziendali con la possibilità di archiviazione o elaborazione dati, includendo: dispositivi dell'utente finale (compresi portatili e mobili), dispositivi di rete, dispositivi non informatici/IoT e server. Assicurare che l'inventario registri l'indirizzo di rete (se statico), l'indirizzo hardware, il nome del computer, il proprietario della risorsa aziendale, il reparto per ogni risorsa e se la risorsa è stata approvata per la connessione alla rete. Per i dispositivi mobili degli utenti finali, gli strumenti di tipo MDM possono supportare questo processo. Questo inventario include le risorse connesse all'infrastruttura fisica, virtuale, remota e quelle all'interno di ambienti cloud. Include inoltre le risorse che sono regolarmente connesse all'infrastruttura di rete dell'impresa, anche se non sono sotto il suo controllo. Rivedere e aggiornare l'inventario di tutte le risorse aziendali semestralmente o più frequentemente."
+            },
+            {
+              "_id": 2,
+              "title": "Mappatura NIST",
+              "section": "ID.AM-1, PR.DS-3"
+            }
+          ]
+        },
+        {
+          "_id": 1,
+          "question": "È prevista una revisione periodica (almeno semestrale) dell'inventario?",
+          "filter": [
+            "ig1",
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Stabilire e Mantenere un Inventario Dettagliato delle Risorse Aziendali",
+              "subtitle": "Identify",
+              "section": "Stabilire e mantenere un inventario accurato, dettagliato e aggiornato di tutte le risorse aziendali con la possibilità di archiviazione o elaborazione dati, includendo: dispositivi dell'utente finale (compresi portatili e mobili), dispositivi di rete, dispositivi non informatici/IoT e server. Assicurare che l'inventario registri l'indirizzo di rete (se statico), l'indirizzo hardware, il nome del computer, il proprietario della risorsa aziendale, il reparto per ogni risorsa e se la risorsa è stata approvata per la connessione alla rete. Per i dispositivi mobili degli utenti finali, gli strumenti di tipo MDM possono supportare questo processo. Questo inventario include le risorse connesse all'infrastruttura fisica, virtuale, remota e quelle all'interno di ambienti cloud. Include inoltre le risorse che sono regolarmente connesse all'infrastruttura di rete dell'impresa, anche se non sono sotto il suo controllo. Rivedere e aggiornare l'inventario di tutte le risorse aziendali semestralmente o più frequentemente."
+            },
+            {
+              "_id": 2,
+              "title": "Mappatura NIST",
+              "section": "ID.AM-1, PR.DS-3"
+            }
+          ]
+        },
+        {
+          "_id": 2,
+          "question": "È presente un processo per trattare le risorse non autorizzate?",
+          "filter": [
+            "ig1",
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Trattare le Risorse non Autorizzate",
+              "subtitle": "Respond",
+              "section": "Assicurare la presenza di un processo per trattare le risorse non autorizzate su base settimanale. L'azienda può scegliere di rimuovere la risorsa dalla rete, bloccarne la connessione remota o metterla in quarantena."
+            }
+          ]
+        },
+        {
+          "_id": 3,
+          "question": "Il processo viene ripetuto settimanalmente?",
+          "filter": [
+            "ig1",
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Trattare le Risorse non Autorizzate",
+              "subtitle": "Respond",
+              "section": "Assicurare la presenza di un processo per trattare le risorse non autorizzate su base settimanale. L'azienda può scegliere di rimuovere la risorsa dalla rete, bloccarne la connessione remota o metterla in quarantena."
+            }
+          ]
+        },
+        {
+          "_id": 4,
+          "question": "Sono attivi controlli atti a rilevare l'utilizzo di dispositivi o software non autorizzati?",
+          "filter": [
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare uno Strumento di Rilevamento Attivo",
+              "subtitle": "Detect",
+              "section": "Utilizzare uno strumento di rilevamento attivo per identificare le risorse connesse alla rete aziendale. Configurarlo per l'esecuzione quotidiana o più frequente."
+            }
+          ]
+        },
+        {
+          "_id": 5,
+          "question": "L'esecuzione del rilevamento viene effettuata quotidianamente?",
+          "filter": [
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare uno Strumento di Rilevamento Attivo",
+              "subtitle": "Detect",
+              "section": "Utilizzare uno strumento di rilevamento attivo per identificare le risorse connesse alla rete aziendale. Configurarlo per l'esecuzione quotidiana o più frequente."
+            }
+          ]
+        },
+        {
+          "_id": 6,
+          "question": "Vengono utilizzati i log su tutti i server DHCP o altri strumenti di gestione degli indirizzi IP (Internet Protocol) per aggiornare l'inventario delle risorse aziendali?",
+          "filter": [
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare i log del Protocollo Dinamico di Configurazione Host (DHCP) per aggiornare l'inventario delle risorse aziendali",
+              "subtitle": "Identify",
+              "section": "Utilizzare i log su tutti i server DHCP o altri strumenti di gestione degli indirizzi IP (Internet Protocol) per aggiornare l'inventario delle risorse aziendali. Rivedere ed utilizzare i registri per aggiornare l'inventario delle risorse settimanalmente o più frequentemente."
+            },
+            {
+              "_id": 2,
+              "title": "Mappatura NIST",
+              "section": "DE.CM-7"
+            }
+          ]
+        },
+        {
+          "_id": 7,
+          "question": "L'inventario delle risorse viene aggiornato settimanalmente o più frequentemente?",
+          "filter": [
+            "ig2",
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare i log del Protocollo Dinamico di Configurazione Host (DHCP) per aggiornare l'inventario delle risorse aziendali",
+              "subtitle": "Identify",
+              "section": "Utilizzare i log su tutti i server DHCP o altri strumenti di gestione degli indirizzi IP (Internet Protocol) per aggiornare l'inventario delle risorse aziendali. Rivedere ed utilizzare i registri per aggiornare l'inventario delle risorse settimanalmente o più frequentemente."
+            },
+            {
+              "_id": 2,
+              "title": "Mappatura NIST",
+              "section": "DE.CM-7"
+            }
+          ]
+        },
+        {
+          "_id": 8,
+          "question": "Sono attivi controlli atti a rilevare l'utilizzo di dispositivi o software non autorizzati?",
+          "filter": [
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare uno Strumento di Rilevazione Passiva delle risorse ",
+              "subtitle": "Detect",
+              "section": "Utilizzare uno strumento di rilevazione passiva per identificare le risorse connesse alla rete aziendale. Rivedere e utilizzare le scansioni per aggiornare l'inventario delle risorse almeno una volta alla settimana o più frequentemente."
+            }
+          ]
+        },
+        {
+          "_id": 9,
+          "question": "L'esecuzione del rilevamento viene effettuata quotidianamente?",
+          "filter": [
+            "ig3"
+          ],
+          "other": [
+            {
+              "_id": 1,
+              "title": "Utilizzare uno Strumento di Rilevazione Passiva delle risorse ",
+              "subtitle": "Detect",
+              "section": "Utilizzare uno strumento di rilevazione passiva per identificare le risorse connesse alla rete aziendale. Rivedere e utilizzare le scansioni per aggiornare l'inventario delle risorse almeno una volta alla settimana o più frequentemente."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
